@@ -1,7 +1,7 @@
 default.munin.gid = 403
 default.munin.uid = 403
 
-default['munin-node'].enable_nginx = true
+default['munin-node'].enable_nginx = false
 default['munin-node'].enable_apache = false
 default['munin-node'].enable_mysql = false
 
